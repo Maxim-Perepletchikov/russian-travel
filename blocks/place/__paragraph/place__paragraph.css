@@ -3,6 +3,7 @@
   font-size: 18px;
   line-height: 1.63;
   margin: 0;
+  min-width: 456px;
 }
 
 .place__paragraph:not(:last-child) {
