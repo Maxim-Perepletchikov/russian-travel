@@ -5,6 +5,7 @@
   line-height: 22px;
   margin-top: 12px;
   align-self: flex-start;
+  transition: 0.5s;
 }
 
 .place__link:hover {
