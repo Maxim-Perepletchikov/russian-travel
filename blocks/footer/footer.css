@@ -2,5 +2,21 @@
   margin: 92px 48px 0;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding-bottom: 24px;
+}
+
+@media screen and (max-width: 984px) {
+  .footer {
+    margin: 88px 24px 0;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .footer {
+    margin: 64px 16px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 310px;
+  }
 }
