@@ -13,14 +13,14 @@
 
 @media screen and (max-width: 1152px) {
   .place {
-    grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);
+    grid-template-columns: minmax(340px, 440px) minmax(200px, 456px);
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 984px) {
   .place {
-    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    grid-template-columns: minmax(320px, 340px) minmax(200px, 352px);
     column-gap: 28px;
   }
   .place:not(:last-child) {
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 612px) {
   .place {
     grid-template-columns: 320px;
     gap: 32px;
