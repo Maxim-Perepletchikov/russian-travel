@@ -25,7 +25,6 @@
 @media screen and (max-width: 568px) {
   .place__paragraph {
     margin: 0 16px;
-    line-height: 26px;
   }
   .place__paragraph:not(:last-child) {
     padding-bottom: 25px;
